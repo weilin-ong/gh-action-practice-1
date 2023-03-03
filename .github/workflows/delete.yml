@@ -2,8 +2,8 @@ name: delete branch
 on:
   delete:
     branches: 
-      - '! test/*'
-      - feature/*
+      - 'feature/**'
+      - '!test/**'
 
 jobs:
   output-event:
