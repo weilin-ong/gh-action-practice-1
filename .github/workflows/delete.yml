@@ -1,10 +1,10 @@
-name: delete branch 
-on: 
+name: delete branch
+on:
   delete:
-    branches: 
-      - ! test/*
+    branches:
+      - '!test/*'
       - feature/*
-  
+
 jobs:
   output-event:
     runs-on: ubuntu-latest
