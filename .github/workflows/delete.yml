@@ -1,5 +1,9 @@
 name: issue created
-on: issues
+on: 
+  delete:
+    branches: 
+      - feature/*
+  
 jobs:
   output-event:
     runs-on: ubuntu-latest
