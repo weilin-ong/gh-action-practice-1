@@ -1,8 +1,8 @@
 name: delete branch
 on:
   delete:
-    branches:
-      - '!test/*'
+    branches: 
+      - '! test/*'
       - feature/*
 
 jobs:
