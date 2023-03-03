@@ -2,7 +2,7 @@ name: delete branch
 on: 
   delete:
     branches: 
-      - ! test/*
+      - '! test/*'
       - feature/*
   
 jobs:
